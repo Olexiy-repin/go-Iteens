@@ -1,0 +1,27 @@
+$baseFontSize: 16px;
+
+@function pxToRem($val) {
+  $remSize: $val/$baseFontSize;
+  @return #{$remSize}rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  counter-reset: number;
+}
+
+.container--width {
+  max-width: 90.9rem;
+  min-width: pxToRem(320px);
+}
+
+@media (min-width: 1200px) and (max-width: 1454px) {
+  .container--width {
+    max-width: 68.6rem;
+  }
+}
