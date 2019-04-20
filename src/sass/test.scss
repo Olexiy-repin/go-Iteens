@@ -1,0 +1,17 @@
+.test {
+  background-color: #4e7bea;
+  height: 64.8rem;
+}
+
+@media (min-width: 768px) {
+  .test {
+    background-color: #4e7bea;
+    height: 64.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .test {
+    height: 68.4rem;
+  }
+}

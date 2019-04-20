@@ -1,0 +1,175 @@
+.education-format {
+	padding-top: 1.2rem;
+	padding-bottom: 3.8rem;
+	background-image: url("img/education-format/bg.svg");
+	background-position: -19rem 4rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+
+.education-format::after {
+	display: block;
+	content: url("img/education-format/sputnik.svg");
+	position: absolute;
+	bottom: 0;
+	right: -7.1rem;
+	width: 13rem;
+}
+
+.education-format__title {
+	font-family: OswaldB;
+	font-size: pxToRem(15px);
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .9px;
+	margin-bottom: 1.3rem;
+}
+
+.education-format__title span {
+	color: #eebf3e;
+}
+
+.education-format__list {
+	list-style: none;
+	padding-top: 2.95rem;
+}
+
+.education-format__list-item {
+	margin-bottom: 1.9rem;
+}
+
+.education-format__list-item svg {
+	width: pxToRem(18px);
+	height: pxToRem(18px);
+	fill: #ca0078;
+	margin-right: 1.1rem;
+}
+
+.education-format__list-item:last-of-type {
+	margin-bottom: 0;
+}
+
+.education-format__list-item:last-of-type svg {
+	fill: #5f7cec;
+}
+
+.education-format__list-item:nth-of-type(2) svg {
+	fill: #eec14d;
+}
+
+.education-format__list-item-title {
+	display: inline-block;
+	font-family: HelveticaB;
+	letter-spacing: .6px;
+	font-size: pxToRem(20px);
+	margin-bottom: .85rem;
+}
+
+.education-format__list-item-text {
+	font-family: HelveticaR;
+	font-size: pxToRem(14px);
+	margin-left: 2.4rem;
+	letter-spacing: 0.5px;
+	line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+
+.education-format {
+	padding-top: 1.8rem;
+	padding-bottom: 3.4rem;
+	background-position: bottom;
+}
+
+.education-format::after {
+	bottom: 1.4rem;
+	right: -4.7rem;
+	width: 23rem;
+}
+
+.education-format__title {
+	font-size: pxToRem(20px);
+	letter-spacing: 1.2px;
+	margin-bottom: 2.1rem;
+}
+
+.education-format__list {
+	padding-top: 3.45rem;
+	width: 38rem;
+	margin: 0 auto;
+}
+
+.education-format__list-item {
+	margin-bottom: 2.8rem;
+}
+
+.education-format__list-item-title {
+	font-size: pxToRem(25px);
+}
+
+.education-format__list-item-text {
+	font-size: 1rem;
+	width: 23rem;
+}
+
+.education-format__list-item-text br {
+	display: none;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+.education-format {
+	background-size: cover;
+	padding-top: 11.4rem;
+	padding-bottom: 7.4rem;
+}
+
+.education-format .container--width {
+	max-width: 1036px;
+}
+
+.education-format::after {
+	bottom: 3.3rem;
+	right: 4rem;
+	width: pxToRem(551px);
+}
+
+.education-format__title {
+	font-size: pxToRem(30px);
+	text-align: left;
+	letter-spacing: 1.7px;
+	margin-bottom: 5.2rem;
+}
+
+.education-format__list {
+	margin: 0;
+	width: auto;
+	padding-top: 0;
+}
+
+.education-format__list-item {
+	margin-bottom: 2.4rem;
+}
+
+.education-format__list-item-title {
+	font-size: pxToRem(30px);
+}
+
+.education-format__list-item-text {
+	font-size: pxToRem(18px);
+}
+
+}
+
+@media (min-width: 1454px) {
+
+.education-format::after {
+	right: 17.6rem;
+}
+
+}
+
