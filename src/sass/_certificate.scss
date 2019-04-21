@@ -1,0 +1,155 @@
+.certificate {
+  padding-top: 3.35rem;
+  padding-bottom: 2.2rem;
+  background-image: url("img/certificate/bg.svg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.certificate__text-container {
+  margin-bottom: 1.4rem;
+}
+
+.certificate__title {
+  font-family: OswaldB;
+  font-size: pxToRem(15px);
+  color: #fff;
+  text-align: center;
+  letter-spacing: .9px;
+  margin-bottom: 1.1rem;
+  text-transform: uppercase;
+  span {
+    color: #eebf3e;
+  }
+}
+
+.certificate__text {
+  font-family: HelveticaB;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: .4px;
+}
+
+.certificate__img-container {
+  display: flex;
+  justify-content: center;
+  picture {
+    display: block;
+    .certificate__img {
+      display: block;
+      width: 17rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .certificate {
+    padding-top: 5.75rem;
+    padding-bottom: 1.8rem;
+  }
+
+  .certificate__text-container {
+    width: 37.8rem;
+    margin: 0 auto;
+    margin-bottom: 1.3rem;
+    position: relative;
+    &::before {
+      display: block;
+      content: url("img/certificate/planet.svg");
+      position: absolute;
+      right: 1.3rem;
+      top: 1.6rem;
+      width: pxToRem(220px);
+    }
+  }
+
+  .certificate__title {
+    font-size: pxToRem(20px);
+    text-align: left;
+    margin-bottom: 2.7rem;
+    letter-spacing: 1.2px;
+  }
+
+  .certificate__text {
+    font-size: pxToRem(25px);
+    text-align: left;
+    letter-spacing: .9px;
+  }
+
+  .certificate__img-container {
+    picture {
+      .certificate__img {
+        width: pxToRem(600px);
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .certificate {
+    padding-top: 8.75rem;
+    padding-bottom: 21.7rem;
+    .row {
+      [class *= col-] {
+        display: flex;
+        position: relative;
+      }
+    }
+  }
+  .certificate__text-container {
+    width: auto;
+    margin: 0;
+    padding-top: 3.7rem;
+    &::before {
+      right: .5rem;
+      top: -5.1rem;
+    }
+  }
+
+  .certificate__title {
+    font-size: pxToRem(30px);
+    letter-spacing: 1.7px;
+    margin-bottom: 3.4rem;
+  }
+
+  .certificate__text {
+    font-size: pxToRem(35px);
+    letter-spacing: 1.4px;
+  }
+
+  .certificate__img-container {
+    position: absolute;
+    top: 0;
+    right: -2rem;
+    picture {
+      .certificate__img {
+        width: 38rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1454px) {
+  .certificate__text-container {
+    margin: 0 auto;
+    width: 73.6rem;
+    padding-top: 3.7rem;
+    &::before {
+      right: 35.5rem;
+      top: -5.1rem;
+    }
+  }
+
+  .certificate__img-container {
+    top: -6.2rem;
+    right: -8rem;
+    picture {
+      .certificate__img {
+        width: pxToRem(845px);
+      }
+    }
+  }
+}
