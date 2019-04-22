@@ -42,6 +42,10 @@
   letter-spacing: .3px;
   margin-bottom: 1.7rem;
   display: block;
+  transition: all .3s linear;
+  &:hover {
+    opacity: .5;
+  }
 }
 
 .footer__contacts-list-item {
@@ -56,6 +60,10 @@
   font-size: pxToRem(14px);
   color: #2c2c2c;
   letter-spacing: .3px;
+  transition: all .3s linear;
+  &:hover {
+    opacity: .5;
+  }
 }
 
 .footer__btn {
@@ -68,6 +76,10 @@
   display: inline-block;
   border-radius: 28px;
   margin-bottom: 2.2rem;
+  transition: all .5s linear;
+  &:hover {
+    background-position: 16.7rem;
+  }
 }
 
 .footer__adress-wrapper {
@@ -147,6 +159,9 @@
     width: 15.2rem;
     margin-bottom: 0;
     margin-right: 2.5rem;
+    &:hover {
+      background-position: 15.2rem;
+    }
   }
 
   .footer__btnsocials-container {

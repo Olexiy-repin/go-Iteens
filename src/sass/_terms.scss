@@ -14,16 +14,16 @@
   font-family: HelveticaR;
   font-size: pxToRem(13px);
   color: #6b6f7a;
-  transition: color .5s linear;
   margin-right: 0;
   cursor: pointer;
   letter-spacing: .5px;
   margin-bottom: 1rem;
+  transition: all .3s linear;
   &:last-of-type {
     margin-bottom: 0;
   }
   &:hover {
-    color: #ff702a;
+    color: #eec14d;
   }
 }
 
