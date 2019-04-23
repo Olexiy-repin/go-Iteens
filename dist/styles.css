@@ -1381,6 +1381,12 @@ img.mfp-img {
 	margin-right: 0;
 }
 
+.footer__social-link-img {
+	display: block;
+	width: 2.625rem;
+	height: 2.625rem;
+}
+
 #terms {
 	background-color: transparent;
 	padding: .5rem 0;

@@ -99,6 +99,12 @@
   }
 }
 
+.footer__social-link-img {
+  display: block;
+  width: pxToRem(42px);
+  height: pxToRem(42px);
+}
+
 @media (min-width: 768px) {
   .footer {
     padding-top: 5rem;
