@@ -462,6 +462,15 @@ img.mfp-img {
 	margin-bottom: 4rem;
 }
 
+.header .three-components__btn-container {
+	position: relative;
+	z-index: 1;
+}
+
+.header .three-components__btn-container .three-components__btn {
+	padding: 1.1rem 0;
+}
+
 .header__logo {
 	width: 5.5rem;
 }
@@ -1704,6 +1713,10 @@ img.mfp-img {
 .header::after {
 	width: 43rem;
 	bottom: -.8rem;
+}
+
+.header .three-components__btn-container .three-components__btn {
+	padding: 1.2rem 0;
 }
 
 .header__wrapper {

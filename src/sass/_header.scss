@@ -19,6 +19,13 @@
   .row:first-of-type {
     margin-bottom: 4rem;
   }
+  .three-components__btn-container {
+    position: relative;
+    z-index: 1;
+    .three-components__btn {
+      padding: 1.1rem 0;
+    }
+  }
 }
 
 .header__logo {
@@ -98,6 +105,11 @@
     &::after {
       width: 43rem;
       bottom: -.8rem;
+    }
+    .three-components__btn-container {
+      .three-components__btn {
+        padding: 1.2rem 0;
+      }
     }
   }
 
