@@ -44,6 +44,11 @@ body {
 	src: url("fonts/Mistral.woff") format("woff"), url("fonts/Mistral.woff2") format("woff2");
 }
 
+@font-face {
+	font-family: MarckScript;
+	src: url("fonts/MarckScript-Regular.woff") format("woff"), url("fonts/MarckScript-Regular.woff2") format("woff2");
+}
+
 /* Magnific Popup CSS */
 
 .white-popup {
@@ -652,7 +657,7 @@ img.mfp-img {
 }
 
 .why-it__subscription {
-	font-family: Mistral;
+	font-family: MarckScript;
 	font-size: 1.25rem;
 	color: #edc65a;
 	text-align: center;
