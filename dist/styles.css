@@ -2482,7 +2482,8 @@ img.mfp-img {
 }
 
 .why-it__subscription {
-	font-size: 2.1875rem;
+	font-size: 1.9rem;
+	letter-spacing: 0;
 }
 
 .why-it__subscription::before {

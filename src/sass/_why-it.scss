@@ -193,7 +193,8 @@
   }
 
   .why-it__subscription {
-    font-size: pxToRem(35px);
+    font-size: 1.9rem;
+    letter-spacing: 0;
     &::before {
       display: none;
     }
