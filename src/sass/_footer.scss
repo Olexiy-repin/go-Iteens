@@ -179,7 +179,7 @@
 
 @media (min-width: 1200px) {
   .footer {
-    padding-top: 13.4rem;
+    padding-top: 7.2rem;
     padding-bottom: 3.5rem;
     background-position: 0 0;
     &::before {
@@ -228,6 +228,7 @@
 
 @media (min-width: 1454px) {
   .footer {
+    padding-top: 13.4rem;
     &::before {
       width: 27.85rem;
       bottom: 0;

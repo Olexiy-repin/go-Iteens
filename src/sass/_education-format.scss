@@ -115,33 +115,57 @@
 @media (min-width: 1200px) {
   .education-format {
     background-size: cover;
-    padding-top: 11.4rem;
-    padding-bottom: 7.4rem;
+    padding-top: 1.65rem;
+    padding-bottom: 4.8rem;
     .container--width {
       max-width: 1036px;
     }
     &::after {
       bottom: 3.3rem;
-      right: 4rem;
-      width: pxToRem(551px);
+      right: 9rem;
+      width: pxToRem(368px);
     }
   }
 
   .education-format__title {
-    font-size: pxToRem(30px);
-    text-align: left;
+    font-size: pxToRem(20px);
     letter-spacing: 1.7px;
-    margin-bottom: 5.2rem;
+    margin-bottom: 6rem;
   }
 
   .education-format__list {
     margin: 0;
     width: auto;
     padding-top: 0;
+    padding-left: 7.1rem;
   }
 
   .education-format__list-item {
-    margin-bottom: 2.4rem;
+    margin-bottom: 3rem;
+  }
+
+  .education-format__list-item-title {
+    font-size: pxToRem(21px);
+  }
+
+  .education-format__list-item-text {
+    font-size: pxToRem(16px);
+  }
+}
+
+@media (min-width: 1454px) {
+  .education-format__title {
+    font-size: pxToRem(30px);
+    text-align: left;
+    margin-bottom: 5.2rem;
+  }
+  .education-format {
+    padding-top: 11.4rem;
+    padding-bottom: 7.4rem;
+    &::after {
+      width: pxToRem(551px);
+      right: 17.6rem;
+    }
   }
 
   .education-format__list-item-title {
@@ -151,12 +175,12 @@
   .education-format__list-item-text {
     font-size: pxToRem(18px);
   }
-}
 
-@media (min-width: 1454px) {
-  .education-format {
-    &::after {
-      right: 17.6rem;
-    }
+  .education-format__list {
+    padding-left: 0;
+  }
+
+  .education-format__list-item {
+    margin-bottom: 2.4rem;
   }
 }

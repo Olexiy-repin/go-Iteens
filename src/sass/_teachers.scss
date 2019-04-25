@@ -184,8 +184,8 @@
 
 @media (min-width: 1200px) {
   .teachers {
-    padding-top: 6.55rem;
-    padding-bottom: 7.8rem;
+    padding-top: 4.6rem;
+    padding-bottom: 3.8rem;
   }
 
   .teachers__card {
@@ -206,9 +206,9 @@
   }
 
   .teachers__title {
-    font-size: pxToRem(30px);
+    font-size: pxToRem(20px);
     letter-spacing: 1.8px;
-    margin-bottom: 5.05rem;
+    margin-bottom: 3.25rem;
   }
 
   .teachers__card-text-container {
@@ -217,6 +217,11 @@
 }
 
 @media (min-width: 1454px) {
+  .teachers {
+    padding-top: 6.55rem;
+    padding-bottom: 7.8rem;
+  }
+
   .teachers__slider {
     width: 79.7rem;
     .owl-nav {
@@ -230,5 +235,10 @@
 
   .teachers__card-text-container {
     width: 19.7rem;
+  }
+
+  .teachers__title {
+    font-size: pxToRem(30px);
+    margin-bottom: 5.05rem;
   }
 }

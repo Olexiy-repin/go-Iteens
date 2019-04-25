@@ -146,14 +146,14 @@
 
 @media (min-width: 1200px) {
   .three-components {
-    padding-top: 3.85rem;
+    padding-top: 1.25rem;
     padding-bottom: 3rem;
   }
 
   .three-components__title {
-    font-size: pxToRem(30px);
+    font-size: pxToRem(20px);
     letter-spacing: 1.8px;
-    margin-bottom: 4.1rem;
+    margin-bottom: 3.1rem;
   }
 
   .three-components__card {
@@ -170,11 +170,33 @@
 
   .three-components__card-img {
     margin: 0;
-    margin-bottom: 3.3rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .three-components__card-title {
+    font-size: pxToRem(21px);
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 1454px) {
+  .three-components {
+    padding-top: 3.85rem;
+  }
+
+  .three-components__title {
+    font-size: pxToRem(30px);
+  }
+
+  .three-components__title {
+    margin-bottom: 4.1rem;
   }
 
   .three-components__card-title {
     font-size: pxToRem(30px);
-    margin-bottom: 1.5rem;
+  }
+
+  .three-components__card-img {
+    margin-bottom: 3.3rem;
   }
 }

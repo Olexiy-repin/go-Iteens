@@ -90,8 +90,8 @@
 
 @media (min-width: 1200px) {
   .certificate {
-    padding-top: 8.75rem;
-    padding-bottom: 21.7rem;
+    padding-top: 6.75rem;
+    padding-bottom: 16.7rem;
     .row {
       [class *= col-] {
         display: flex;
@@ -103,6 +103,7 @@
     width: auto;
     margin: 0;
     padding-top: 3.7rem;
+    margin-left: 9.3rem;
     &::before {
       right: .5rem;
       top: -5.1rem;
@@ -110,20 +111,20 @@
   }
 
   .certificate__title {
-    font-size: pxToRem(30px);
+    font-size: pxToRem(20px);
     letter-spacing: 1.7px;
-    margin-bottom: 3.4rem;
+    margin-bottom: 2.7rem;
   }
 
   .certificate__text {
-    font-size: pxToRem(35px);
+    font-size: pxToRem(25px);
     letter-spacing: 1.4px;
   }
 
   .certificate__img-container {
     position: absolute;
-    top: 0;
-    right: -2rem;
+    top: -3.7rem;
+    right: -2.4rem;
     picture {
       .certificate__img {
         width: 38rem;
@@ -133,10 +134,16 @@
 }
 
 @media (min-width: 1454px) {
+  .certificate {
+    padding-top: 8.75rem;
+    padding-bottom: 21.7rem;
+  }
+
   .certificate__text-container {
     margin: 0 auto;
     width: 73.6rem;
     padding-top: 3.7rem;
+    margin-left: 0;
     &::before {
       right: 35.5rem;
       top: -5.1rem;
@@ -151,5 +158,14 @@
         width: pxToRem(845px);
       }
     }
+  }
+
+  .certificate__title {
+    font-size: pxToRem(30px);
+    margin-bottom: 3.4rem;
+  }
+
+  .certificate__text {
+    font-size: pxToRem(35px);
   }
 }

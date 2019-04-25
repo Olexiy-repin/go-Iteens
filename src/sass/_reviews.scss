@@ -194,7 +194,7 @@
 
 @media (min-width: 1200px) {
   .reviews {
-    padding-top: 0;
+    padding-top: 0.6rem;
   }
 
   .reviews__card {
@@ -202,9 +202,9 @@
   }
 
   .reviews__title {
-    font-size: pxToRem(30px);
+    font-size: pxToRem(20px);
     letter-spacing: 1.4px;
-    margin-bottom: 4.9rem;
+    margin-bottom: 2.3rem;
   }
 
   .reviews__slider {
@@ -222,6 +222,10 @@
 }
 
 @media (min-width: 1454px) {
+  .reviews {
+    padding-top: 0;
+  }
+
   .reviews__card {
     width: 23.6rem;
   }
@@ -230,5 +234,10 @@
     .owl-nav {
       width: 97%;
     }
+  }
+
+  .reviews__title {
+    font-size: pxToRem(30px);
+    margin-bottom: 4.9rem;
   }
 }
