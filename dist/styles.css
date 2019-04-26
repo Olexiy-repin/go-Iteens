@@ -1031,6 +1031,18 @@ img.mfp-img {
 	content: "Софія Гордієнко";
 }
 
+.teachers__card .teacher-4::before {
+	content: "Кирило Свідерський";
+}
+
+.teachers__card .teacher-5::before {
+	content: "Іван Мельничук";
+}
+
+.teachers__card .teacher-6::before {
+	content: "Зоряна Шипіцина";
+}
+
 .teachers__card-img-container {
 	margin-bottom: 2.3rem;
 	position: relative;

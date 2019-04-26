@@ -59,6 +59,21 @@
       content: "Софія Гордієнко"
     }
   }
+  .teacher-4 {
+    &::before {
+      content: "Кирило Свідерський"
+    }
+  }
+  .teacher-5 {
+    &::before {
+      content: "Іван Мельничук"
+    }
+  }
+  .teacher-6 {
+    &::before {
+      content: "Зоряна Шипіцина"
+    }
+  }
 }
 
 .teachers__card-img-container {
